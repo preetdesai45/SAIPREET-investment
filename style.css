@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:rgb(255, 255, 17);
+}
+
+/*@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  img {
+    width: 200px;
+    height:200px;
+  }
+  .header {
+    width: auto;
+    font-size: 70%;
+  }
+  .leftsides{
+    font-size: 20px;
+  }
+  .images img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-top: 30px;
+  }  
+
+
+}*/
+/* Mobile-specific styles */
+@media screen and (max-width: 500px) {
+  /* Header styles */
+ .header {
+    height: 40px;
+    font-size: 60%;
+  }
+  
+  /* Navigation styles */
+ .nav {
+    position: relative;
+    top: 50px;
+  }
+ .nav li {
+    float: none;
+    width: 100%;
+  }
+ .nav a {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Home section styles */
+ .homesec {
+    flex-direction: column;
+  }
+ .homesec div {
+    width: 50%;
+    padding: 10px;
+  }
+ .leftside {
+    font-size: 1.5rem;
+  }
+ .rightside img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Services section styles */
+  #services.premium {
+    font-size: 40px;
+  }
+  
+  /* Life and Genin section styles */
+ .lifein,.genin {
+    font-size: 18px;
+  }
+ .lifeul,.genul {
+    padding: 10px 0 0 20%;
+  }
+  
+  /* Images section styles */
+ .images {
+    height: auto;
+    margin: 20px 0;
+  }
+ .images img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-top:10px;
+  }
+  
+  /* About us section styles */
+ .aboutus {
+    font-size: 20%;
+    padding: 10px;
+    height: auto;
+  }
+ .aboutus p {
+    padding-top: 10px;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    font-size: 20px;
+    padding-top: 50px;
+    height: auto;
+  }
+}
+ img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding: 10px 0 5px 5px;
+  object-fit: fill;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color:rgb(0, 8, 255);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  position: sticky;
+  top: 0%;
+  z-index: 1000;
+}
+.tagname {
+  padding-top: 8px;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 70px;
+  z-index: 1000;
+}
+
+li {
+  float: left;
+  border-right: 1x solid white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+ 
+}
+
+li a:hover {
+  background-color: rgba(0, 0, 255, 0.868);
+}
+
+
+.nav a:active {
+  background-color: rgba(113, 146, 255, 0.846); 
+}
+
+
+
+
+.homesec {
+  display: flex;
+  height: auto;
+}
+.homesec div {
+  width: 50%;
+  padding: 20px;
+}
+.leftside {
+  text-align: left;
+  font-size: 25px;
+}
+.rightside img {
+  height: max-content;
+  width: 95%;
+}
+
+.leftsides {
+  margin: 90px 0 0 90px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#services .premium {
+  background-color: blue;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  z-index: 0;
+}
+.lifein{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.genin {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lifeul,
+.genul {
+  text-align: center;
+  background-color: rgb(255, 255, 17);
+  padding: 20px 0 0 45%;;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: disc;
+  line-height: 2rem;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  height: 225px;
+  margin:40px 0 40px 0;
+  }
+.images img{
+  width: 150px;
+  height: 125px;
+  padding-right: 40px;
+  padding-top: 50px;
+}  
+/*#licd :hover .licdrop{
+  background-color: bisque;
+}
+.licdrop , .tatadrop , .caredrop{
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}*/
+.aboutus{
+  font-size: 25px;
+  padding: 10px;
+  height: 15rem;
+}
+.aboutus p{
+  padding-top: 20px;
+  text-align: justify;
+  line-height:2rem ;
+}
+#contact{
+  background-color: blue;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 25px ;
+  padding-top: 100px;
+  height: 15rem;
+  color: white;
+  line-height: 2.2rem;
+}
+ 
+
